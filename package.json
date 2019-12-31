@@ -1,6 +1,6 @@
 {
   "name": "adm-zip",
-  "version": "0.4.12",
+  "version": "0.4.13",
   "description": "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
   "scripts": {
     "test": "mocha test/mocha.js test/crc/index.js"
@@ -11,11 +11,10 @@
     "archive",
     "unzip"
   ],
-  "homepage": "https://github.com/cthackers/adm-zip",
-  "author": "Nasca Iacob <sy@another-d-mention.ro> (https://github.com/cthackers)",
+  "homepage": "https://github.com/linqingwudiv1/adm-zip-ex",
+  "author": "hello~",
   "bugs": {
-    "email": "sy@another-d-mention.ro",
-    "url": "https://github.com/cthackers/adm-zip/issues"
+    "url": "https://github.com/linqingwudiv1/adm-zip-ex/issues"
   },
   "license": "MIT",
   "files": [
@@ -25,17 +24,21 @@
     "util",
     "zipEntry.js",
     "zipFile.js",
+    "adm-zip.d.ts",
+    "tsconfig.js",
     "MIT-LICENSE.txt"
   ],
   "main": "adm-zip.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cthackers/adm-zip.git"
+    "url": "https://github.com/linqingwudiv1/adm-zip-ex"
   },
   "engines": {
     "node": ">=0.3.0"
   },
   "devDependencies": {
+    "@types/node": "^8.10.59",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2"

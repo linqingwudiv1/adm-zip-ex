@@ -1,4 +1,6 @@
-# ADM-ZIP for NodeJS with added support for electron original-fs
+# ADM-ZIP-EX for NodeJS with added support for electron original-fs for typescript
+
+fork for [here](https://www.npmjs.com/package/adm-zip)
 
 ADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS](http://nodejs.org/). 
 
@@ -6,7 +8,7 @@ ADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS
 
 With [npm](http://npmjs.org) do:
 
-    $ npm install adm-zip
+    $ npm install adm-zip-ex
 	
 ## What is it good for?
 The library allows you to:
@@ -23,7 +25,7 @@ There are no other nodeJS libraries that ADM-ZIP is dependent of
 ## Basic usage
 ```javascript
 
-	var AdmZip = require('adm-zip');
+	var AdmZip = require('adm-zip-ex');// or import AdmZip from 'adm-zip-ex'
 
 	// reading archives
 	var zip = new AdmZip("./my_file.zip");
